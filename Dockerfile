@@ -15,4 +15,5 @@ COPY . .
 EXPOSE 8080
 
 # Define the command to run when the container starts
-CMD ["node", "app.js"]
+#CMD ["node", "app.js"]
+CMD ["calculator", "< test.txt"]
