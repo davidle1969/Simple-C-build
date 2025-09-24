@@ -4,6 +4,9 @@ FROM ubuntu:latest
 # Set working directory
 WORKDIR /app
 
+# set the path
+ENV PATH="/app:${PATH}"
+
 # Copy application files
 COPY . .
 
