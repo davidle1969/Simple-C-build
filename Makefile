@@ -5,7 +5,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra
 
 # Define the source file and executable name
-SRC = calculator.c
+SRC = Calculator.c
 TARGET = calculator
 
 # The main rule: build the executable
@@ -14,4 +14,5 @@ $(TARGET): $(SRC)
 
 # Rule to clean up generated files
 clean:
+
 	rm -f $(TARGET)
